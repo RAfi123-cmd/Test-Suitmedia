@@ -1,0 +1,4 @@
+link serialization https://github.com/Kotlin/kotlinx.serialization
+link coroutines https://github.com/Kotlin/kotlinx.coroutines
+link kotlinconf https://github.com/JetBrains/kotlinconf-app
+link HTTP https://ktor.io/docs/http-client-engines.html

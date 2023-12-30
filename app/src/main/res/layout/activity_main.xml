@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#2B637B">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ic_photo"
+        android:contentDescription="Image Description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:hint="Nama"
+        android:paddingStart="12dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="8dp"
+        android:textColor="#04021D"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextSentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:hint="Palindrome"
+        android:paddingStart="12dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="8dp"
+        android:textColor="#04021D"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/buttonCheck"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSentence"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Check"
+        android:background="@drawable/rounded_button_background"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCheck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button_background"
+        android:text="Next"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

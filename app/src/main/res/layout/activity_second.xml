@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewFirstName"
+        android:layout_width="350dp"
+        android:layout_height="36dp"
+        android:text="Welcome"
+        android:textColor="#04021D"
+        android:textSize="12sp"
+        android:layout_marginTop="108px"
+        android:layout_marginLeft="21px"/>
+
+    <TextView
+        android:id="@+id/textViewSelectedUserName"
+        android:layout_width="350dp"
+        android:layout_height="36dp"
+        android:text="John Doe"
+        android:fontFamily="sans-serif"
+        android:textColor="#04021D"
+        android:lineHeight="10px"
+        android:textSize="18sp"
+        android:layout_marginTop="1px"
+        android:layout_marginLeft="20px"/>
+
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="230dp"
+        android:fontFamily="sans-serif"
+        android:text="Selected User Name"
+        android:textColor="#04021D"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonChooseUser"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="29px"
+        android:text="Choose a User"
+        android:background="@drawable/rounded_button2_background"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
